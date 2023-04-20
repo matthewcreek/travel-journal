@@ -10,6 +10,7 @@ function Card(props) {
                 <div className="card--country">
                     <img className="card--pin" src={pin}/>
                     <h4>{props.country}</h4>
+                    <a href="http://www.google.com">View on Google Maps</a>
                 </div>
                 <h1>{props.locationName}</h1>
                 <p>{props.date}</p>
