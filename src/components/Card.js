@@ -12,8 +12,8 @@ function Card(props) {
                     <h4>{props.country}</h4>
                     <a href="http://www.google.com">View on Google Maps</a>
                 </div>
-                <h1>{props.locationName}</h1>
-                <p>{props.date}</p>
+                <h1 className="card--title">{props.locationName}</h1>
+                <p className="card--date">{props.date}</p>
                 <p>{props.description}</p>
             </div>
         </div>

@@ -39,17 +39,26 @@ body {
 
 .card--photo {
   max-width: 250px;
+  max-height: 227px;
   border-radius: 5px;
 }
 
 .card--country {
   display: flex;
   align-items: center;
+  padding-top: 15px;
+  padding-bottom: 5px;
 }
 
 .card--country > a {
   padding-left: 15px;
   color: gray;
+  
+}
+
+.card--country > h4 {
+  text-transform: capitalize;
+  margin: 0;
 }
 
 .card--pin {
@@ -58,4 +67,13 @@ body {
 
 .card--info {
   padding-left: 10px;
+}
+
+.card--title {
+  padding: 0;
+  margin: 0;
+}
+
+.card--date {
+  font-weight: bold;
 }
